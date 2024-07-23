@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="gold">
+    
+    <form>
+        <fieldset>
+            <legend>Enquiry</legend>
+        Name : <input type="text" name="name" placeholder="Enter your name" required maxlength="20">
+        <br><br>
+        Surname : <input type="text" name="name2" value="Enter your surname" disabled><br>
+        Surname : <input type="text" name="name2" value="Enter your surname" readonly><br>
+        Address: <textarea name="address" value="pune"> pune</textarea><br> <br>
+        Select a course:
+        <input type="text" name="course" placeholder="Enter your course" required maxlength="20" list="course">
+        <datalist id="course">
+            <option value="HTML">HTML</option>
+            <option value="PHP">PHP</option>
+            <option value="Python"></option>
+            <option value="Javascript"></option>
+            <option value="Node.js"></option>
+            <option value="CSS"></option>
+            
+            
+        </datalist>
+
+
+        <br><br>Gender : 
+        <input type="radio" name="name" value="M">Male 
+        <input type="radio" name="name" value="F">female 
+        <input type="radio" name="name" value="O">other
+<br><br>
+Country:
+<select>
+    <option>Please select a option</option>
+    <optgroup label="Asia">
+<option value="India"> India</option>
+<option value="J"> Japan</option>
+</optgroup>
+<optgroup label="America">
+<option value="USA">USA</option>
+<option value="USA">Canada</option>
+</select>
+<br><br>
+Hobbies:
+<input type="checkbox" name="H[]" value="" checked>dancing<br>
+<input type="checkbox" name="H[]" value="">painting<br>
+<input type="checkbox" name="H[]" value="">singing<br>
+<input type="checkbox" name="H[]" value="">cooking<br><br>
+
+<input type="file" name="F1">
+<br><br>
+<input type="color" name="color" value="red"><br><br>
+Enter your email:
+<input type="email" name="mail" placeholder="abcd234@gmail.com" autofocus><br><br>
+Password: <input type="password" name="passwrd"><br><br>
+Enter your age:<input type="number" name="Age" value="20" min="1" max="100"><br><br>
+<center><h4>Calender elements</h4></center>
+Date : <input type="date" name="date"><br><br>
+Date-time : <input type="datetime-local" name="datelocal"><br><br>
+time : <input type="time" name="time"><br><br>
+Month : <input type="Month" name="Mon"><br><br>
+Week : <input type="week" name="wek"><br><br>
+Range : <input type="range" name="range"><br><br>
+
+
+<input type="submit" name="submit" value="submit">
+<input type="reset" name="reset" value="reset">
+</fieldset>
+    </form>
+    
+</body>
+</html>

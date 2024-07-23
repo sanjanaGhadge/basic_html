@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.navbar .logo img {
+    width: 100px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .user-icon img {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.featured {
+    position: relative;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.featured-content {
+    max-width: 500px;
+}
+
+.featured-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.featured-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.movie-rows {
+    padding: 20px 50px;
+}
+
+.movie-row {
+    margin-bottom: 30px;
+}
+
+.movie-row h2 {
+    margin: 0 0 10px 0;
+}
+
+.movie-thumbnails {
+    display: flex;
+}
+
+.movie-thumbnails img {
+    margin-right: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.movie-thumbnails img:hover {
+    transform: scale(1.05);
+}

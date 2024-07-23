@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranform</title>
+
+    <style>
+        .main{
+            width:50px;
+            height:50px;
+            border:2px black solid;
+            box-shadow:10px 10px 10px 5px grey;
+            margin:auto;
+            margin-top:100px;
+            /* 
+            1-   scale(1.5);
+            */
+            transform:scale(2);
+        }
+        .main1{
+            width:350px;
+            height:350px;
+            border:2px black solid;
+            box-shadow:10px 10px 10px 5px grey;
+            margin:auto;
+            margin-top:100px;
+            /* 
+           rotate(deg|rad);
+            rotateX(deg);
+             rotateZ(deg);
+            */
+            transform:rotate(60deg);
+        }
+        .main2{
+            width:150px;
+            height:150px;
+            border:2px black solid;
+            box-shadow:10px 10px 10px 5px grey;
+            margin:auto;
+            margin-top:100px;
+            /* 
+          skew(,)deg,rad,turn
+          skewX();
+            */
+            transform:skew(40deg,40deg);
+        }
+        .main3{
+            width:350px;
+            height:350px;
+            border:2px black solid;
+            box-shadow:10px 10px 10px 5px grey;
+            margin:auto;
+            margin-top:100px;
+            /* 
+          translate(x,y);
+            */
+            transform:translate(30px,30px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        scale
+    </div>
+    <div class="main1">
+   rotate
+    </div>
+    <div class="main2">
+        skew
+    </div>
+    <div class="main3">
+        translate
+    </div>
+    
+</body>
+</html>
